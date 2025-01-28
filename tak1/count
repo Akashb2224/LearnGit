@@ -1,0 +1,19 @@
+text = "I am learning learning python python python programming"
+
+# Split the text into words
+words = text.split()
+
+# Create a dictionary to store the count of each word
+word_count = {}
+
+# Iterate through the list of words
+for word in words:
+    if word in word_count:
+        word_count[word] += 1
+    else:
+        word_count[word] = 1
+
+print (word_count)
+# Print the count of each word
+for word, count in word_count.items():
+    print(f"{word}: {count}")
