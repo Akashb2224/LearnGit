@@ -1,0 +1,4 @@
+def blank():
+    pass
+
+blank()
